@@ -33,7 +33,7 @@ int main(){
          printf("\n");
         }
     }else{
-        printf("vazio\n");
+        printf("[matriz vazia]\n");
     }
 
     for(int i = 0; i < lin; i++){
