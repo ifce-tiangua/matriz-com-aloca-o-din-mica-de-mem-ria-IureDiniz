@@ -25,7 +25,6 @@ int main(){
             }
         }
 
-
         for(int i = 0; i < lin*col; i++){
                 for(int j = 0; j < col; j++){
                 printf("%d ", matriz[i][j]);
