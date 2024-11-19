@@ -16,16 +16,14 @@ int main() {
 		}
 	}
 
-	if(matriz[0] != NULL) {
+	if(matriz != NULL) {
 		for(int i = 0; i < lin; i++) {
 			for(int j = 0; j < col; j++) {
-				int aux = 0;
-				scanf(" %d", &aux);
-				matriz[i][j] = aux;
+				scanf("%d", &matriz[i][j]);
 			}
 		}
 
-		for(int i = 0; i < lin*col; i++) {
+		for(int i = 0; i < lin; i++) {
 			for(int j = 0; j < col; j++) {
 				if(j == col-1) {
 					printf("%d", matriz[i][j]);
