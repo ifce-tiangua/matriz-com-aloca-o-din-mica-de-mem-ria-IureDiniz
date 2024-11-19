@@ -16,7 +16,7 @@ int main() {
 		}
 	}
 
-	if(matriz != NULL) {
+	if(matriz[0] != NULL) {
 		for(int i = 0; i < lin; i++) {
 			for(int j = 0; j < col; j++) {
 				scanf("%d", &matriz[i][j]);
